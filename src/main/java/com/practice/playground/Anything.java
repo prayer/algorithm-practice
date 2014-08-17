@@ -1,6 +1,7 @@
 package com.practice.playground;
 
 import java.util.ArrayList;
+import java.util.BitSet;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -22,16 +23,9 @@ public class Anything {
     }
 	
 	public static void main(String[] args) {
-		/*
-		System.out.println(Math.pow(2, 3));
 		
-		Stack<Integer> s = new Stack<Integer>();
-		s.push(5);
-	
-		Scanner scanner = new Scanner("hello world    my dear  friends");
-		while (scanner.hasNext()) System.out.print(scanner.next());
-		scanner.close();
-		*/
+		BitSet bs = new BitSet(Integer.MAX_VALUE);
+		bs.cardinality();
 		
 		ArrayList<Integer> arr = new ArrayList<>();
 		
